@@ -302,3 +302,35 @@ p{
         padding: 2rem;
     }
 }
+@media screen and (max-width: 420px) {
+    .navegacion--menu {
+        text-decoration: none;
+        color: var(--secondary);
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        justify-content: space-between;
+    }
+    .navegacion {
+        display: flex;
+        justify-content: space-between;
+    }
+    .box {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .box__menu a {
+        display: grid;
+        background-color: var(--alternatie);
+        border: 0.5rem solid var(--text-color);
+        width: 25rem;
+        height: 25rem;
+        box-sizing: border-box;
+        background-size: contain;
+    }
+    .box__menu__img {
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+    }
+}
