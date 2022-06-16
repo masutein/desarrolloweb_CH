@@ -29,6 +29,11 @@ body{
     grid-template-columns: auto;
     min-height: 100vh;
 }
+.navbar {
+    font-family: var(--font-principal);
+    font-size: var(--text-medium);
+    color: var(--alternatie);
+}
 .navegacion__logo {
     text-decoration: none;
     color: var(--base);
@@ -294,7 +299,7 @@ p{
     
     .navegacion{
         flex-direction:row;
-        justify-content: flex-start;
+        justify-content: space-around;
     }
     .seccion, .inicio{ 
         float: left;

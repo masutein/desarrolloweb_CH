@@ -12,39 +12,74 @@
     <header>
         <div class="navegacion">
             <a class="navegacion__logo" href="../index.html"><img src="../images/libro-de-lectura.png" alt="icono">ARCANIUM</a>
-            <nav>
+            <!--<nav>
                 <ul class="navegacion--menu">
                     <li class="navegacion--menu__item"><a class="navegacion--menu__link" href="./mangas.html">MANGAS</a></li>
                     <li class="navegacion--menu__item"><a class="navegacion--menu__link" href="./libros.html">LIBROS</a></li>
                     <li class="navegacion--menu__item"><a class="navegacion--menu__link" href="./comics.html">COMICS</a></li>
                     <li class="navegacion--menu__item"><a class="navegacion--menu__link" href="./iniciar.html">INICIAR</a></li>
                 </ul>
-            </nav>
-        </div>
+            </nav>-->
+            <nav class="navbar">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">MENU</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU PRINCIPAL</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="./mangas.html">MANGAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./comics.html">COMICS</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="./libros.html">LIBROS</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="./iniciar.html">INICIAR</a>
+                        </li>
+                      </ul>
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </nav>
     </header>
     <main>
-        <div class="registro">
-            <form action="" method="get">
-                <input type="text" name="usuario" placeholder="Usuari@">
+        <div class="container">
+            <div class="registro">
+                <form action="" method="get">
+                    <input type="text" name="usuario" placeholder="Usuari@">
+                    <br>
+                    <input type="password" name="contrasenia" placeholder="Contraseña">
+                    <br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar datos">
+                </form>
                 <br>
-                <input type="password" name="contrasenia" placeholder="Contraseña">
                 <br>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Borrar datos">
-            </form>
-            <br>
-            <br>
-            <h2>Registrate</h2>
-            <form action="" method="get">
-                <input type="email" name="correo" placeholder="Correo">
-                <br>
-                <input type="text" name="usuario" placeholder="Usuari@">
-                <br>
-                <input type="password" name="contrasenia" placeholder="Contraseña">
-                <br>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Borrar datos">
-            </form>
+                <h2>Registrate</h2>
+                <form action="" method="get">
+                    <input type="email" name="correo" placeholder="Correo">
+                    <br>
+                    <input type="text" name="usuario" placeholder="Usuari@">
+                    <br>
+                    <input type="password" name="contrasenia" placeholder="Contraseña">
+                    <br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar datos">
+                </form>
+            </div>
         </div>
     </main>
     <footer>

@@ -14,35 +14,71 @@
     <header>
         <div class="navegacion">
             <a class="navegacion__logo" href="./index.html"><img src="./images/libro-de-lectura.png" alt="icono">ARCANIUM</a>
-            <nav>
+            <!--<nav>
                 <ul class="navegacion--menu">
                     <li class="navegacion--menu__item"><a class="navegacion--menu__link" href="./pages/mangas.html">MANGAS</a></li>
                     <li class="navegacion--menu__item"><a class="navegacion--menu__link" href="./pages/libros.html">LIBROS</a></li>
                     <li class="navegacion--menu__item"><a class="navegacion--menu__link" href="./pages/comics.html">COMICS</a></li>
                     <li class="navegacion--menu__item"><a class="navegacion--menu__link" href="./pages/iniciar.html">INICIAR</a></li>
                 </ul>
-            </nav>
+            </nav>-->
+            <nav class="navbar">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">MENU</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU PRINCIPAL</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="./pages/mangas.html">MANGAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/comics.html">COMICS</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="./pages/libros.html">LIBROS</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="./pages/iniciar.html">INICIAR</a>
+                        </li>
+                      </ul>
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </nav>
         </div>
     </header>
     <main>
-        <div>
-            <h1>Quienes somos?</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo soluta quisquam, temporibus ipsam dolore ipsa? Modi distinctio dolorum molestiae eligendi, praesentium officia est alias, assumenda porro itaque debitis ipsum aperiam.</p>
-        </div>
-        <br>
-        <div class="box row justify-content-center">
-            <section class="box__menu col-sm-12 col-md-6 col-xl-4">
-                <h3>Libros en PDF</h3>
-                <a href="./pages/libros.html"><img class="box__menu__img" src="./images/libros.jpg" alt="imagen de libro"></a>
-            </section>
-            <section class="box__menu col-sm-12 col-md-6 col-xl-4">
-                <h3>Mangas en Oferta</h3>
-                <a href="./pages/mangas.html"><img class="box__menu__img" src="./images/mangas.jpg" alt="imagen de mangas"></a>
-            </section>
-            <section class="box__menu col-sm-12 col-md-6 col-xl-4">
-                <h3>Comics en Stock</h3>
-                <a href="./pages/comics.html"><img class="box__menu__img" src="./images/comics.jpg" alt="imagen de personajes de comics"></a>
-            </section>
+        <div class="container">
+            <div>
+                <h1>Quienes somos?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo soluta quisquam, temporibus ipsam dolore ipsa? Modi distinctio dolorum molestiae eligendi, praesentium officia est alias, assumenda porro itaque debitis ipsum aperiam.</p>
+            </div>
+            <br>
+            <div class="box row justify-content-center">
+                <section class="box__menu col-sm-12 col-md-6 col-xl-4">
+                    <h3>Libros en PDF</h3>
+                    <a href="./pages/libros.html"><img class="box__menu__img" src="./images/libros.jpg" alt="imagen de libro"></a>
+                </section>
+                <section class="box__menu col-sm-12 col-md-6 col-xl-4">
+                    <h3>Mangas en Oferta</h3>
+                    <a href="./pages/mangas.html"><img class="box__menu__img" src="./images/mangas.jpg" alt="imagen de mangas"></a>
+                </section>
+                <section class="box__menu col-sm-12 col-md-6 col-xl-4">
+                    <h3>Comics en Stock</h3>
+                    <a href="./pages/comics.html"><img class="box__menu__img" src="./images/comics.jpg" alt="imagen de personajes de comics"></a>
+                </section>
+            </div>
         </div>
     </main>
     <footer>
