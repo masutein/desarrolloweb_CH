@@ -1,0 +1,93 @@
+/*MISC*/
+/*colors*/
+/*font-family*/
+/*font-sizes*/
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 64.5%; }
+
+header {
+  background-color: #7C3E66; }
+
+body {
+  display: grid;
+  grid-template-columns: auto;
+  min-height: 100vh; }
+
+p {
+  font-family: cursive;
+  color: #A5BECC;
+  background-color: #243A73;
+  margin: auto;
+  font-size: 1.6em; }
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: #A5BECC;
+  font-size: 5rem; }
+
+h2, h3 {
+  background-color: #243A73;
+  color: #A5BECC;
+  margin: 1rem 0.5rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.5rem; }
+
+ul {
+  list-style-type: none; }
+
+/*PARTIALS*/
+/*Header*/
+.navegacion {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #F2EBE9;
+  gap: 10rem;
+  justify-content: space-around;
+  font-size: 1.2em; }
+  .navegacion__navbar {
+    font-family: cursive;
+    font-size: 2.5rem;
+    color: #A5BECC; }
+  .navegacion__logo {
+    text-decoration: none;
+    color: #898952;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em; }
+
+main {
+  background-image: url(../images/libreria.jpg);
+  background-size: contain; }
+  main .box {
+    display: flex;
+    justify-content: space-around; }
+    main .box__menu {
+      display: inline-block;
+      padding: auto;
+      margin: auto;
+      border: 0.5rem; }
+    main .box__menu a {
+      background-color: #A5BECC;
+      border: 0.5rem solid #243A73;
+      width: 25rem;
+      height: 25rem; }
+    main .box__menu__img {
+      width: 100%;
+      height: 100%;
+      background-size: contain; }
+
+footer {
+  background-color: #898952;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2em;
+  font-family: cursive; }
+
+/*VIEWS*/

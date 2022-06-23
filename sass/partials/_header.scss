@@ -1,0 +1,24 @@
+/*Header*/
+.navegacion {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: $secondary;
+    gap: 10rem;
+    justify-content: space-around;
+    font-size: $text-small;
+    &__navbar {
+        font-family: $font-principal;
+        font-size: $text-medium;
+        color: $alternatie;
+    }
+    &__logo {
+        text-decoration: none;
+        color: $base;
+        gap: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: $text-base;
+    }
+}

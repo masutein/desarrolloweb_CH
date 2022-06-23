@@ -1,0 +1,16 @@
+/*MISC*/
+@import './misc/variables';
+@import './misc/normalize';
+@import './misc/mixins';
+
+/*PARTIALS*/
+@import './partials/header';
+@import './partials/body';
+@import './partials/footer';
+
+/*VIEWS*/
+@import './views/home';
+@import './views/mangas';
+@import './views/comics';
+@import './views/libros';
+@import './views/iniciar';

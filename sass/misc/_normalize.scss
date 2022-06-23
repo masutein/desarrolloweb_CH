@@ -1,0 +1,38 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 64.5%;
+}
+header {
+    background-color: $primary;
+}
+body{
+    display: grid;
+    grid-template-columns: auto;
+    min-height: 100vh;
+}
+p {
+    font-family: $font-principal;
+    color: $alternatie;
+    background-color: $text-color;
+    margin: auto;
+    font-size: $text-base;
+}
+h1 {
+    font-family: $font-title;
+    color: $alternatie;
+    font-size: $text-large;
+}
+h2, h3 {
+    background-color: $text-color;
+    color: $alternatie;
+    margin: 1rem 0.5rem;
+    font-family: $font-title;
+    font-size: $text-medium;
+}
+ul {
+    list-style-type: none;
+}

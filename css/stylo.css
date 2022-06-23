@@ -25,7 +25,7 @@ html{
 header {
     background-color: var(--primary);
 }
-.navbar {
+.navegacion__navbar {
     font-family: var(--font-principal);
     font-size: var(--text-medium);
     color: var(--alternatie);
