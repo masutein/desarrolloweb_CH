@@ -7,11 +7,6 @@
     gap: 10rem;
     justify-content: space-around;
     font-size: $text-small;
-    &__navbar {
-        font-family: $font-principal;
-        font-size: $text-medium;
-        color: $alternatie;
-    }
     &__logo {
         text-decoration: none;
         color: $base;

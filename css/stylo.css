@@ -117,6 +117,7 @@ h2, h3 {
 
 /*Footer*/
 footer {
+    height: 30vh;
     background-color: var(--base);
     display: flex;
     justify-content: center;
@@ -200,14 +201,6 @@ p{
 }
 /*Medias*/
 @media screen and (min-width: 420px) {
-    .navegacion--menu {
-        text-decoration: none;
-        color: var(--secondary);
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
-        justify-content: space-between;
-    }
     .navegacion {
         display: flex;
         justify-content: space-between;
@@ -232,14 +225,6 @@ p{
     }
 }
 @media screen and (min-width: 780px) {
-    .navegacion--menu {
-        text-decoration: none;
-        color: var(--secondary);
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
-        justify-content: space-evenly;
-    }
     .navegacion {
         display: flex;
         justify-content: space-evenly;
@@ -271,14 +256,6 @@ p{
     }
 }
 @media screen and (min-width: 1080px) {
-    .navegacion--menu {
-        text-decoration: none;
-        color: var(--secondary);
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
-        justify-content: center;
-    }
     .navegacion {
         display: flex;
         justify-content: center;
