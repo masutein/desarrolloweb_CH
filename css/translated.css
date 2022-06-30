@@ -105,11 +105,12 @@ p {
 /*Header*/
 .navegacion {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
+  gap: 10rem;
   text-decoration: none;
   color: #F2EBE9;
-  gap: 10rem;
-  justify-content: space-around;
   font-size: 1.2em; }
   .navegacion__logo {
     text-decoration: none;

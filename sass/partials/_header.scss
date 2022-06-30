@@ -1,11 +1,8 @@
 /*Header*/
 .navegacion {
-    display: flex;
-    align-items: center;
+    @include flex(row, space-around, center, 10rem);
     text-decoration: none;
     color: $secondary;
-    gap: 10rem;
-    justify-content: space-around;
     font-size: $text-small;
     &__logo {
         text-decoration: none;
