@@ -7,10 +7,7 @@
     &__logo {
         text-decoration: none;
         color: $base;
-        gap: 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex(row, center, center, 1rem);
         font-size: $text-base;
     }
 }

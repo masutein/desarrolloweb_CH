@@ -1,8 +1,7 @@
 footer {
     padding: 1rem 0;
     background-color: $base;
-    display: flex;
-    justify-content: center;
+    @include flex(row, center, center, auto);
     font-size: $text-small;
     font-family: $font-principal;
 }

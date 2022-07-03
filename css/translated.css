@@ -15,8 +15,8 @@ header {
 
 body {
   display: grid;
-  grid-template-columns: auto;
-  min-height: 20vh 100vh 20vh; }
+  grid-template-rows: 15% 70% 15%;
+  min-height: 100vh; }
 
 p {
   font-family: cursive;
@@ -115,10 +115,11 @@ p {
   .navegacion__logo {
     text-decoration: none;
     color: #898952;
-    gap: 1rem;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
     font-size: 1.6em; }
 
 main {
@@ -126,7 +127,8 @@ main {
   background-size: contain; }
   main .box {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    /*Botones*/ }
     main .box__menu {
       display: inline-block;
       padding: auto;
@@ -140,19 +142,37 @@ main {
         width: 100%;
         height: 100%;
         background-size: contain; }
+    main .box .btn, main .box .btn--vermas, main .box .btn--comentar {
+      width: 15rem;
+      padding: 1rem 1.2rem;
+      font-size: 1.6em;
+      margin: 0 auto; }
+    main .box .btn--vermas {
+      background-color: #f2ebe9; }
+      main .box .btn--vermas:hover {
+        background-color: #f2ebe956; }
+    main .box .btn--comentar {
+      background-color: #f2ebe9; }
+      main .box .btn--comentar:hover {
+        background-color: #f2ebe956; }
 
 footer {
   padding: 1rem 0;
   background-color: #898952;
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  gap: auto;
   font-size: 1.2em;
   font-family: cursive; }
 
 /*VIEWS*/
 .registro {
-  display: flex;
-  justify-content: space-around; }
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; }
   .registro form {
     height: 100%;
     width: 100%;

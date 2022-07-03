@@ -20,5 +20,32 @@ main {
                 background-size: contain;
             }
         }
+        /*Botones*/
+        $color:(
+                primero:#f2ebe9,
+                segundo:#f2ebe956,
+                texto:#0e0e0d56,
+            );
+        .btn{
+            width: 15rem;
+            padding: 1rem 1.2rem;
+            font-size: $text-base;
+            margin: 0 auto;
+            
+        }
+        .btn--vermas{
+            @extend .btn;
+            background-color: map-get($color, primero );
+            &:hover{
+                background-color: map-get($color, segundo );
+            }
+        }
+        .btn--comentar{
+            @extend .btn;
+            background-color: map-get($color, primero );
+            &:hover{
+                background-color: map-get($color, segundo );
+            }
+        }
     }
 }

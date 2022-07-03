@@ -12,8 +12,8 @@ header {
 }
 body{
     display: grid;
-    grid-template-columns: auto;
-    min-height: 20vh 100vh 20vh;
+    grid-template-rows: 15% 70% 15%;
+    min-height: 100vh;
 }
 p {
     font-family: $font-principal;
