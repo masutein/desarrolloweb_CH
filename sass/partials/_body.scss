@@ -3,22 +3,12 @@ main {
     background-size: contain;
     .box{
         display: flex;
+        flex-direction: row;
         justify-content: space-around;
         &__menu {
-            display: inline-block;
             padding: auto;
             margin: auto;
             border: 0.5rem;
-            
-            img {
-                background-color: $alternatie;
-                border: 0.5rem solid $text-color;
-                width: 25rem;
-                height: 25rem;
-                width: 100%;
-                height: 100%;
-                background-size: contain;
-            }
         }
         /*Botones*/
         $color:(

@@ -1,0 +1,15 @@
+main {
+    .box{
+        &__menu {
+            img {
+                background-color: $alternatie;
+                border: 0.5rem solid $text-color;
+                width: 25rem;
+                height: 25rem;
+                width: 100%;
+                height: 100%;
+                background-size: contain;
+            }
+        }
+    }
+}
