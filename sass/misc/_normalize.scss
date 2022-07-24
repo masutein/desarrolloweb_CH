@@ -6,42 +6,47 @@
 html{
     font-size: 64.5%;
 }
-header {
-    padding: 1rem 0;
+body{
     background-color: $primary;
 }
-body{
-    display: grid;
-    grid-template-rows: 10% 100% 10%;
-    min-height: 100vh;
+header {
+    border-bottom: 0.2rem solid $text-color;
 }
 p {
     font-family: $font-principal;
-    color: $alternatie;
-    background-color: $text-color;
-    margin: auto;
-    font-size: $text-base;
+    color: $alternative;
+    font-size: $text-small;
 }
 h1 {
     font-family: $font-title;
-    color: $alternatie;
+    color: $text-color;
     font-size: $text-large;
 }
-h2, h3 {
-    background-color: $text-color;
-    color: $alternatie;
-    margin: 1rem 0.5rem;
+h2, h3, h4 {
+    color: $text-color;
     font-family: $font-title;
     font-size: $text-medium;
 }
 ul {
     list-style-type: none;
 }
+a {
+    text-decoration: none;
+}
 
 /*animaciones*/
 .box__menu :hover{
     transform: scale(1.3);
     transition: all 1s;
+    &__menu1 :hover{
+        transform: none;
+    }
+    &__menu2 :hover{
+        transform: none;
+    }
+    &__menu3 :hover{
+        transform: none;
+    }
 }
 p{
 	-webkit-animation: p 3s ;
